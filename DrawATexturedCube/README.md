@@ -16,6 +16,15 @@ effect = new BasicEffect(GraphicsDevice)
 
 - Create a new directory inside the project directory, and call it `Content`
 - Add an image file to the `Content` folder (_in this example, we're using a file called `handpaintedwall2.png'_)
+- Ensure that the image file is set as `Content` and that it is copied to the output folder if it changes (using your IDE or modifying the .csproj file):
+```xml
+<ItemGroup>
+  <Content Include="Content\handpaintedwall2.png">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </Content>
+</ItemGroup>
+```
+
 - In the class constructor, add the following line to set the game's asset directory:
 
 ```csharp
