@@ -5,6 +5,22 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{A78A72C0-C75A-4630-A49F-29182A28CC46}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrawACube", "DrawACube\DrawACube.csproj", "{925FADBC-8E1A-4478-9F8A-2656F9C74285}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C3FB2790-CA71-4C5D-A03D-1CB63C82C638}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes.gitignore = .gitattributes.gitignore
+		.gitconfig.gitignore = .gitconfig.gitignore
+		.gitignore = .gitignore
+		configure.bat = configure.bat
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "001_HelloWorld", "001_HelloWorld", "{298E2E63-6AE2-42A4-8B05-F1AFA49F61B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "002_DrawACube", "002_DrawACube", "{3452F795-0B14-4636-B3E4-C6CA5B1DDCA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +31,17 @@ Global
 		{A78A72C0-C75A-4630-A49F-29182A28CC46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A78A72C0-C75A-4630-A49F-29182A28CC46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A78A72C0-C75A-4630-A49F-29182A28CC46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{925FADBC-8E1A-4478-9F8A-2656F9C74285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{925FADBC-8E1A-4478-9F8A-2656F9C74285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{925FADBC-8E1A-4478-9F8A-2656F9C74285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{925FADBC-8E1A-4478-9F8A-2656F9C74285}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A78A72C0-C75A-4630-A49F-29182A28CC46} = {298E2E63-6AE2-42A4-8B05-F1AFA49F61B1}
+		{925FADBC-8E1A-4478-9F8A-2656F9C74285} = {3452F795-0B14-4636-B3E4-C6CA5B1DDCA2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3C7099DA-8DCA-4A09-B70B-76A816E557BA}

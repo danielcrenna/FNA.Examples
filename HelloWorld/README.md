@@ -66,4 +66,4 @@ namespace HelloWorld
 }
 ```
 
-- Run the Console Application
+- Run the game
