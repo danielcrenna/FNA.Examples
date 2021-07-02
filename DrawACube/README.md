@@ -87,7 +87,7 @@ public DrawACube()
 }
 ```
 
-- FNA's graphic's device is not available during class construction, so override the `Initialize` method to setup a basic effect for drawing:
+- FNA's graphic's device is not available during class construction, so override the `Initialize` method to setup a `BasicEffect` for drawing:
 
 ```csharp
 private RasterizerState rasterizerState;
