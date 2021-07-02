@@ -1,5 +1,5 @@
-﻿Draw A Cube
-===========
+﻿Draw A Textured Cube
+=====================
 
 - Set up your game as per [Draw A Cube](https://github.com/danielcrenna/FNA.Examples/blob/main/DrawACube/README.md)
 - Rename the `DrawACube.cs` class and file to `DrawATexturedCube.cs`
@@ -120,3 +120,7 @@ model[35] = new VertexPositionTexture(br + -Vector3.UnitZ, tbr);
 ```
 - Run the game
 - Use the arrow keys to rotate the textured cube
+
+Texture:
+--------
+The texture image provided in this example is from [OpenGameArt.org](https://opengameart.org/content/handpainted-stone-wall-textures).
