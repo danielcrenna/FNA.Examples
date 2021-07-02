@@ -15,7 +15,7 @@ effect = new BasicEffect(GraphicsDevice)
 ```
 
 - Create a new directory inside the project directory, and call it `Content`
-- Add a texture file to the `Content` folder (_in this example, we're using a file called `handpaintedwall2.png'_)
+- Add an image file to the `Content` folder (_in this example, we're using a file called `handpaintedwall2.png'_)
 - In the class constructor, add the following line to set the game's asset directory:
 
 ```csharp
